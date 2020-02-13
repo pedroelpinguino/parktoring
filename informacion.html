@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inf.css">
+    <title>Acerca de ti</title>
+
+</head>
+<body>
+
+    <h1>Agrega mas informacion</h1>
+    <section>
+<label>nombre completo</label> <br>
+<input id="nombre" type="text">
+<label>edad</label>
+<input id="edad" type="text"> 
+<label>Ubicacion de trabajo</label><br>
+<input id="ubicacion" type="text">
+<label>fotografia</label> <br>
+<label>telefono</label>
+<input id="telefono" type="text"> <br>
+<button id="submit" type="button">confirmar</button>
+    </section>
+    <section>
+<article></article>
+
+
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyA1kxZWoi0tn3EG3lmWwUe3KWMJnshYFo8",
+    authDomain: "parktoring-especialistas.firebaseapp.com",
+    databaseURL: "https://parktoring-especialistas.firebaseio.com",
+    projectId: "parktoring-especialistas",
+    storageBucket: "parktoring-especialistas.appspot.com",
+    messagingSenderId: "379337319734",
+    appId: "1:379337319734:web:b313289377f6e524817f97"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+    
+    <script src="informacion.js"></script>
+</body>
+</html>

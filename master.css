@@ -1,0 +1,44 @@
+/** 
+textos
+**/
+
+html{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: grey;
+    font-size: 16px;
+}
+body{
+    font-weight: bold;
+}
+h1{
+ font-size: 2rem;
+ font-weight: inherit;
+ text-align: center;
+}
+
+
+
+/* cajas */
+
+section{
+    border: 1px solid rgba(224, 37, 37, 1);
+    margin: 20px 0 30px 4px;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* displays */
+
+section{
+/* display: inline; */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: flex-start;
+padding: 0;
+margin: 0;
+}
